@@ -533,10 +533,6 @@ header {
 }
 
 
-/* =========================
-   SKILLS
-========================= */
-
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -769,16 +765,13 @@ footer small {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
+    display: flex;
 }
 
 #topBtn:hover {
     background: var(--dark-pink);
 }
 
-
-/* =========================
-   TABLET
-========================= */
 
 @media (max-width: 900px) {
 
